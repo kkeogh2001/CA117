@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIR=$HOME/bin
+
+wget -qO- " http://bigcharts.marketwatch.com/quickchart/quickchart.asp?symb=$1"
+
